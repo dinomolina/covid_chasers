@@ -22,7 +22,7 @@ traitlets==4.3.2
 wcwidth==0.1.7
 Werkzeug==0.12.2
 Flask==1.0.0
-pymysql==0.9.3
+pymysql==0.1.0
 flask-bootstrap==3.3.7.1
 flask-pymongo==2.3.0
 flask-sqlalchemy==2.4.4
