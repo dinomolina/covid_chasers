@@ -33,7 +33,7 @@ def create_app():
 @app.route("/")
 def home():
     # Render Home Page
-    return render_template("animations.html")
+    return render_template("xgraphs.html")
 
 @app.route("/covid")
 def covid():
