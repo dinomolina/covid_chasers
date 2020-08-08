@@ -33,11 +33,11 @@ def create_app():
 @app.route("/")
 def home():
     # Render Home Page
-    return render_template("Covid.html")
-
-@app.route("/graphs")
-def graphs():
     return render_template("graphs.html")
+
+@app.route("/covid")
+def covid():
+    return render_template("Covid.html")
 
 @app.route("/animations")
 def animations():
@@ -1056,4 +1056,4 @@ def Wyoming():
     return results_json
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
