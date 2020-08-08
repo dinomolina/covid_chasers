@@ -21,11 +21,9 @@ six==1.11.0
 SQLAlchemy==1.1.15
 traitlets==4.3.2
 wcwidth==0.1.7
-werkzeug==0.12.2
 Werkzeug==0.12.2
-Flask==0.12.2
+Flask==1.0.0
 pymysql==0.9.3
-flask==1.1.1
 flask-bootstrap==3.3.7.1
 flask-pymongo==2.3.0
 flask-sqlalchemy==2.4.4
