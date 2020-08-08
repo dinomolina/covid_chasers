@@ -1058,4 +1058,4 @@ def Wyoming():
     return results_json
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
