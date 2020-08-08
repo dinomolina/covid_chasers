@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>C0VID-19 TRACKER</title>
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600">
+    <link rel="stylesheet" href="static/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="static/styles.css" media="screen">
+</head>
+
+
+<!--Bio Information on Covid Chaser Team--> 
+<header>
+    <div class="container">
+            <a class="header-style" id="header-name">Covid Chasers</a>
+    <nav>
+        <ul>
+          <li><a href="{{ url_for('covid') }}">Home</a></li>
+          <li><a href="{{ url_for('home') }}">Graphs</a></li>
+          <li><a href="{{ url_for('animations') }}">Animations</a></li>
+          <li><a href="{{ url_for('about') }}">About</a></li>
+        </ul>
+    </nav>
+    </div>
+    <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="static/img1.png" alt="David" style="width:100%">
+            <div class="container-bio">
+              <h2>David Hoff</h2>
+              <p class="title">Data Strategist & Engineer</p>
+              <p>David is a Data Strategist that specializes in consulting and long-term development.</p>
+              <p>davidjhoff@verizon.net</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="static/img2.jpg" alt="Dino" style="width:100%">
+            <div class="container-bio">
+              <h2>Dino Molina</h2>
+              <p class="title">Database Specialist</p>
+              <p>Dino is a Business Analyst and a Databse Specialist who constructs projects using python and SQLite.</p>
+              <p>dinomolina79@gmail.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="static/img3.jpg" alt="Trevor" style="width:100%">
+            <div class="container-bio">
+              <h2>Trevor Doucet</h2>
+              <p class="title">Web Developer</p>
+              <p>Trevor focuses on HTML and CSS development.</p>
+              <p>trevordoucet594@gmail.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img src="static/img4.png" alt="Michael" style="width:100%">
+          <div class="container-bio">
+            <h2>Michael Clarke</h2>
+            <p class="title">Software Engineer & Analyst</p>
+            <p>Michael has foundations in web hooks, software configuring and data cleanup.</p>
+            <p>michaelpclarke@gmail.com</p>
+            <p><button class="button">Contact</button></p>
+          </div>
+        </div>
+      </div>
+     <!--Logo 'Covid Chasers' for Navbar Addition--> 
+      <div class="logo-header">
+        <img src="static/Covid Chasers.png" alt="covid-logo" width="80" height="100%"> </div>
+        
+      <!--Flexible Footer html--> 
+      <footer class="footer navbar-fixed-bottom">
+          <div class="two-toned-footer-color"></div>
+          <div class="three-toned-footer-color"></div>
+          <p class="footer-heading-center">
+              Data Analytics and Visualizations | Project 2
+          </p>
+      
+      </footer>
+  
+</body>

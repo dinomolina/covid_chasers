@@ -1,0 +1,436 @@
+html {
+    height: 100%;
+    margin: 0;
+    padding:0;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    background: #222;
+    font-family: 'Works Sans', sans-serif;
+    font-weight: 400;
+}
+
+.body-wrapper {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#header-name {
+    color: #444;
+    font-size: 35px;
+    font-weight: bold;
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+
+#header-name1 {
+  color: #444;
+  font-size: 35px;
+  font-weight: bold;
+  position: relative;
+  top: 16px;
+  left: 36px;
+}
+
+
+header {
+    background: #55d6aa;
+    position: relative;
+    height: 80px;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    float: right;
+    padding: 10px 0;
+    height: 80px;
+    width: 70px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+
+    position: relative;
+}
+
+nav a {
+    color: #444;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #444;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 250ms;
+ }
+
+ nav a:hover::before {
+     width: 100%;
+ }
+
+ body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    position: relative;
+    top: 100px;
+    box-shadow: 0 4px 8px 0 #55d6aa; ;
+    margin: 8px;
+    padding: 100px;
+  }
+  
+  .container-bio {
+    padding: 0 16px;
+    color: #55d6aa;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: #55d6aa;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: black;
+    background-color: #55d6aa;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: white;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+
+.footer {
+    background-color: #55d6aa;
+    font-size: 30px;
+    color:#444;
+    font-weight: bold;
+    Height: 80px;
+    padding: 20px;
+    text-align: center;
+    }
+
+.logo-header {
+  position: absolute;
+  bottom: 0;
+  left: 100px;
+}
+
+#map,
+html {
+    height: 85%;
+  }
+
+#map {
+    position: relative;
+    top: -400px;
+    margin: 500px;
+    left: -200px;
+    width: 800px;
+    transform: scale(1);
+    border: 5px solid #55d6aa;
+}
+
+@media screen and (max-width: 500px) {
+  #map {
+    width: 100%;
+  }
+}
+
+.map-description {
+    font-size: 20px;
+    left: -13px;
+    position: relative;
+    top: 50px;
+    letter-spacing: -1px; 
+    color: #fff; 
+    text-transform: uppercase; 
+    text-align: center; 
+    line-height: 50px ;
+}
+
+.leaflet-popup-content {
+  text-align: center;
+  transform: scale(0.7);
+}
+
+/* CSS from the Leaflet-Choropleth documentation */
+.legend {
+  padding: 6px 8px;
+  font: 12px Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #555;
+  background: #fff;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.legend ul {
+  padding: 0;
+  margin: 0;
+  clear: both;
+  list-style-type: none;
+}
+
+.legend li {
+  display: inline-block;
+  width: 30px;
+  height: 22px;
+}
+
+.legend .min {
+  float: left;
+  padding-bottom: 5px;
+}
+
+.legend .max {
+  float: right;
+}
+
+h1 {
+  text-align: center;
+}
+
+table, td, th {  
+    border: 5px solid #55d6aa;
+    font-size: 18pt;
+    text-align: left;
+    color: white;
+  }
+  
+  table {
+    position: relative;
+    top: 63px;
+    border-collapse: collapse;
+    width: 15%;
+    left: 1119px;
+    margin: 15px;
+  }
+  
+  th, td {
+    font-size: 15px;
+    padding: 15px;
+  }
+
+  @media screen and (max-width: 500px) {
+    .table {
+      width: 100%;
+    }
+  }
+
+  .graph-row {
+    border: 3px solid #55d6aa;
+    display: flex;
+    position: relative;
+    left: 300.5px;
+    top: 260px;
+    width: 55.53%;
+  }
+
+  .graph-pics {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+  @media screen and (max-width: 500px) {
+    .graph-pics {
+      width: 100%;
+    }
+  }
+  .graph-container {
+    display: flex;
+    position: relative;
+    left: 450px;
+    width: 40%;
+  }
+
+  #bar {
+    position: relative;
+    left: 170px;
+    top: 30px;
+    transform: scale(0.8);
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  #line {
+    position: relative;
+    left: 170px;
+    transform: scale(0.8);
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+
+  #line2 {
+    position: relative;
+    left: 170px;
+    transform: scale(0.8);
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  #selDataset0 {
+    position: relative; 
+    left: 1049px;
+    top: -25px;
+  }
+
+  #selDataset1 {
+    position: relative;
+    left: 942px;
+    top: -53px;
+  }
+
+  #selDataset2 {
+    position: relative;
+    left: 942px;
+    top: -53px;
+  }
+
+  @media screen and (max-width: 500px) {
+    #selDataset0 {
+      width: 100%;
+    }
+
+    #selDataset1 {
+      width: 100%;
+    }
+
+    #selDataset2 {
+      width: 100%;
+    }
+  }
+.data-description {
+  color: white;
+  font-size: 14pt;
+  margin-left: 320px;
+  position: relative;
+  top: -59px;
+}
+.data0-description {
+  color: white;
+  font-size: 14pt;
+  margin-left: 320px;
+  position: relative;
+  top: -89px;
+}
+
+.data2-description {
+  color: white;
+  font-size: 14pt;
+  margin-left: 320px;
+  position: relative;
+  top: -88px;
+}
+
+#animated-map {
+  position:absolute;
+  margin-left: 380px;
+  margin-top: 60px;
+  transform: scale(1);
+}
+
+#second-map {
+  position:absolute;
+  margin-left: 380px;
+  margin-top: 600px;
+  margin-bottom: 150px; 
+  transform: scale(1);
+}
+
+.animated-row {
+  border: 3px solid #55d6aa;
+  display: block;
+  position: relative;
+  left: 42px;
+  top: -533px;
+  width: 15%;
+}
+
+.animated-pics {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+@media screen and (max-width: 500px) {
+  .animated-pics {
+    width: 100%;
+  }
+}
