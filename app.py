@@ -10,8 +10,6 @@ from flask import Flask, url_for, redirect
 from flask_bootstrap import Bootstrap
 from flask import Flask, render_template, jsonify
 from sqlalchemy import create_engine
-from config import remote_db_endpoint, remote_db_port
-from config import remote_db_name, remote_db_user, remote_db_pwd
 
 if is_heroku == False:
     from config import remote_db_endpoint, remote_db_port, remote_db_name, remote_db_user, remote_db_pwd
